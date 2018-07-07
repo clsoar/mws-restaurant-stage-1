@@ -22,15 +22,13 @@
     <section id="map-container">
       <div id="map" role="application" aria-label="Map of Restaurants"></div>
     </section>
-    <section>
-      <div class="filter-options">
+    <section id="restaurant-info" aria-label="Restaurant Information">
+      <div class="filter-options filter-container">
         <h2>Filter Results</h2>
-        <label for="neighborhoods-select">Select Neighborhood</label>
-        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" aria-label="Select Neighborhood">
           <option value="all">All Neighborhoods</option>
         </select>
-        <label for="cuisines-select">Select Cuisine</label>
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" aria-label="Select Cuisine">
           <option value="all">All Cuisines</option>
         </select>
       </div>
