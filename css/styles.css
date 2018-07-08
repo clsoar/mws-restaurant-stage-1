@@ -330,18 +330,18 @@ nav h1 a {
 		max-width: 450px;
 	}
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
 	#restaurants-list li {
-		margin: 15px 3%;
-		width: 35%;
+		margin: 15px 10px;
+		width: 45%;
+		padding: 3px;
 	}
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 850px) {
 	#restaurants-list li {
 		margin: .2%;
 		width: 31%;
 		padding: 5px;
-
 	}
 }
 @media screen and (min-width: 1000px) {
