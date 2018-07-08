@@ -336,6 +336,20 @@ nav h1 a {
 		width: 45%;
 		padding: 3px;
 	}
+	#restaurant-container {
+		width: 50%;
+		order: -1;
+	}
+	.inside #map-container {
+		width: 50%;
+		order: 1;
+	}
+	.inside #map {
+		height: 700px;
+	}
+	#reviews-container {
+		order: 2;
+	}
 }
 @media screen and (min-width: 850px) {
 	#restaurants-list li {
@@ -343,11 +357,31 @@ nav h1 a {
 		width: 31%;
 		padding: 5px;
 	}
+	#restaurant-container {
+		max-width: 450px;
+	}
+	.inside #map-container {
+		max-width: 450px;
+	}
+	#reviews-container {
+		max-width: 900px;
+	}
+	.inside #maincontent {
+		justify-content: center;
+	}
 }
 @media screen and (min-width: 1000px) {
 	#restaurants-list li {
 		margin: 2px;
 		padding: 0;
 		width: 24%;
+	}
+	#restaurant-container {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.inside #map-container {
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 }
