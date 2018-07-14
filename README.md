@@ -16,7 +16,7 @@ To do this you will need to either already have a preferred method of hosting a 
 
 Steps for setting up Python to run a server:
 
-* If needed, download Python [website](https://www.python.org/).
+* If needed, download Python from their [website](https://www.python.org/).
 
 * In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python -m http.server`.
 
@@ -33,7 +33,7 @@ More information and reviews can be found by clicking on the map icons or the re
 
 Clicking on the "home" at the top of the reviews page or the header or footer "Restaurant Reviews" will navigate you back to the home page.
 
-If you prefer to navigate using your `Tab` key, there is a skip link after the header so you can bypass the map and go straight to the restaurant filters. 
+If you prefer to navigate using your `Tab` key, there is a skip link after the header so you can bypass the map and go straight to the restaurant filters.
 
 ## Dependencies
 
