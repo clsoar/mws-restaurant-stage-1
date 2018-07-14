@@ -4,9 +4,7 @@ The goal for this project was to take a static webpage and make it into an offli
 
 ## Getting Started
 
-The Restaurant Reviews site can be found at this link:
-
-Alternatively, to run this on your own computer follow these steps:
+To run this on your own computer follow these steps:
 
 ##### 1. Download or clone this repository.
 
@@ -38,6 +36,8 @@ If you prefer to navigate using your `Tab` key, there is a skip link after the h
 ## Dependencies
 
 * Mapbox leaflet
+* Browser supporting Service Workers
+* Local server
 
 ## Credits
 
