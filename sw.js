@@ -3,6 +3,7 @@ const staticCacheName = 'restaurant-reviews-1';
 //Install site assets
 self.addEventListener('install', function(event) {
   event.waitUntil(
+    //cache the pages
     caches.open(staticCacheName).then(function(cache) {
       return cache.addAll([
         '/',
@@ -11,7 +12,14 @@ self.addEventListener('install', function(event) {
         '/css/styles.css',
         '/js/main.js',
         '/js/restaurant_info.js',
-        '/js/dbhelper.js',
+        '/js/dbhelper.js'
+      ]);
+    })
+  );
+  //cache the images
+  event.waitUntil(
+    caches.open('images').then(function(cache) {
+      return cache.addAll([
         '/img/1.jpg',
         '/img/2.jpg',
         '/img/3.jpg',
@@ -25,7 +33,15 @@ self.addEventListener('install', function(event) {
       ]);
     })
   );
-});
+  //cache the database
+  event.waitUntil(
+    caches.open('data').then(function(cache) {
+      return cache.addAll([
+        '/data/restaurants.json'
+      ]);
+    })
+  );
+});    
 
 //Send requests to cache
 //This addes offline capability
