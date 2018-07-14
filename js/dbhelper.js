@@ -9,8 +9,12 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 8000 // Change this to your server port
-    return `https://clsoar.github.io/mws-restaurant-stage-1/data/restaurants.json`;
-    //return `http://localhost:${port}/data/restaurants.json`;
+
+    // For non-local hosts
+        if (window.location.hostname !== 'localhost') {
+            return `${window.location.origin}/mws-restaurant-stage-1/data/restaurants.json`;
+        }
+        return `http://localhost:${port}/data/restaurants.json`;
   }
 
   /**
