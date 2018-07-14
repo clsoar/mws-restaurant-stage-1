@@ -33,7 +33,7 @@ More information and reviews can be found by clicking on the map icons or the re
 
 Clicking on the "home" at the top of the reviews page or the header or footer "Restaurant Reviews" will navigate you back to the home page.
 
-If you prefer to navigate using you `Tab` key, there is a skip link after the header so you can bypass the map and go straight to the restaurant filters. 
+If you prefer to navigate using your `Tab` key, there is a skip link after the header so you can bypass the map and go straight to the restaurant filters. 
 
 ## Dependencies
 
