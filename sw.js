@@ -41,7 +41,7 @@ self.addEventListener('install', function(event) {
       ]);
     })
   );
-});    
+});
 
 //Send requests to cache
 //This addes offline capability
