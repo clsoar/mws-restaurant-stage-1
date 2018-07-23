@@ -36,6 +36,7 @@ If you prefer to navigate using your `Tab` key, there is a skip link after the h
 ## Dependencies
 
 * Mapbox leaflet
+Please note that Mapbox leaflet needs a token to work. You can get a free account and token at their [website](https://www.mapbox.com/). The token will need to be input in two javascipt files that can be found in the js folder. Those files are main.js at line 81 and restaurant-info.js at line 25.
 * Browser supporting Service Workers
 * Local server
 
