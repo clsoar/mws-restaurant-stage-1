@@ -13,8 +13,9 @@ class DBHelper {
     // For non-local hosts
         if (window.location.hostname !== 'localhost') {
             return `${window.location.origin}/restaurant-stage-1/data/restaurants.json`;
-        }
+        } else {
         return `http://localhost:${port}/data/restaurants.json`;
+      }
   }
 
   /**
