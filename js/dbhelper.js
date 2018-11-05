@@ -159,7 +159,7 @@ class DBHelper {
     /*if (window.location.hostname !== 'clsoar.github.io') {
       return (`https://github.com/clsoar/restaurant-stage-1/tree/master/img/${restaurant.photograph}`);
     }else {*/
-        return (`restaurant-stage-1/img/${restaurant.photograph}`);
+        return (`./img/${restaurant.photograph}`);
 //  }
 }
   /**
