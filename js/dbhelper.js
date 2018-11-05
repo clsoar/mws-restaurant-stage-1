@@ -156,14 +156,16 @@ class DBHelper {
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
-    if (window.location.hostname !== 'clsoar.github.io') {
-      return (`https://github.com/clsoar/restaurant-stage-1/tree/master/img/${restaurant.photograph}`);      
-      }else {
-        return (`/img/${restaurant.photograph}`);
-  }
+    /*if (window.location.hostname !== 'clsoar.github.io') {
+      return (`https://github.com/clsoar/restaurant-stage-1/tree/master/img/${restaurant.photograph}`);
+    }else {*/
+        return (`restaurant-stage-1/img/${restaurant.photograph}`);
+//  }
 }
   /**
    * Map marker for a restaurant.
+        restaurant-stage-1/img/1.jpg
+
    */
    static mapMarkerForRestaurant(restaurant, map) {
     // https://leafletjs.com/reference-1.3.0.html#marker
