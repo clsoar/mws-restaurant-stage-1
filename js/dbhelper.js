@@ -157,7 +157,7 @@ class DBHelper {
    */
   static imageUrlForRestaurant(restaurant) {
     if (window.location.hostname !== 'clsoar.github.io') {
-      return (`https://github.com/clsoar/restaurant-stage-1/tree/master/img/${restaurant.photograph}`);    
+      return (`https://github.com/clsoar/restaurant-stage-1/blob/master/img/${restaurant.photograph}`);    
       }else {
         return (`/img/${restaurant.photograph}`);
   }
