@@ -12,7 +12,7 @@ class DBHelper {
 
     // For non-local hosts
         if (window.location.hostname !== 'localhost') {
-            return `${window.location.origin}/restaurant-stage-1/data/restaurants.json`;
+            return `https://github.com/clsoar/restaurant-stage-1/restaurant-stage-1/blob/data/restaurants.json`;
         } else {
         return `http://localhost:${port}/data/restaurants.json`;
       }
@@ -157,7 +157,7 @@ class DBHelper {
    */
   static imageUrlForRestaurant(restaurant) {
     if (window.location.hostname !== 'clsoar.github.io') {
-      return (`https://github.com/clsoar/restaurant-stage-1/blob/master/img/${restaurant.photograph}`);    
+      return (`https://github.com/clsoar/restaurant-stage-1/blob/master/img/${restaurant.photograph}`);
       }else {
         return (`/img/${restaurant.photograph}`);
   }
