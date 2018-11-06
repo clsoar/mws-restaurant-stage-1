@@ -4,6 +4,10 @@ The goal for this project was to take a static webpage and make it into an offli
 
 ## Getting Started
 
+Navigate to [https://clsoar.github.io/restaurant-stage-1/](https://clsoar.github.io/restaurant-stage-1/) to view the application.
+
+OR
+
 To run this on your own computer follow these steps:
 
 ##### 1. Download or clone this repository.
