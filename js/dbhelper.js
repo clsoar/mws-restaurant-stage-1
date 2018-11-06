@@ -164,7 +164,6 @@ class DBHelper {
 }
   /**
    * Map marker for a restaurant.
-        restaurant-stage-1/img/1.jpg
 
    */
    static mapMarkerForRestaurant(restaurant, map) {
